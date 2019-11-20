@@ -2,10 +2,6 @@
 
 Catch possible phishing domains in near real time by looking for suspicious TLS certificate issuances reported to the [Certificate Transparency Log (CTL)](https://www.certificate-transparency.org/) via the [CertStream](https://certstream.calidog.io/) API. "Suspicious" issuances are those whose domain name scores beyond a certain threshold based on a configuration file.
 
-This is just a working PoC, feel free to contribute and tweak the code to fit your needs 👍
-
-![Screencast of example usage.](https://i.imgur.com/4BGuXkR.gif)
-
 ### Installation
 
 The script should work fine using Python2 or Python3. In either case, install the requirements after cloning or downloading the source code:
